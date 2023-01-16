@@ -23,3 +23,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 - README info regarding the project name
 - THIS CHANGELOG FILE
+
+
+## [0.0.2] - 2023-01-16
+
+### Added
+
+- Cypress Types
+
+### Fixed
+
+- Cypress Related warnings in VSCode
+    - isolated modules warning fixed by adding `export {}` line to home.cy.ts
+    - type warnings from vscode not recognizing types in cypress test files
