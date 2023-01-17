@@ -36,3 +36,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Cypress Related warnings in VSCode
     - isolated modules warning fixed by adding `export {}` line to home.cy.ts
     - type warnings from vscode not recognizing types in cypress test files
+
+
+## [0.0.3] - 2023-01-17
+
+### Added
+
+- Cypress tests for feature dt's
