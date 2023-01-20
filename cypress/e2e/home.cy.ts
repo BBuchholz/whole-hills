@@ -8,7 +8,7 @@ describe('home page', () => {
   
   it.only('contains an h1 block with the Testing text', () => {
 
-    cy.get("[data-test='hero-heading']").contains("Testing")
+    cy.getByData("hero-heading").contains("Testing")
   
   })
 
@@ -30,5 +30,3 @@ describe('home page', () => {
   
   })
 })
-
-export {} // added to fix typescript issue, (comment out this line to see the problem in vscode)
